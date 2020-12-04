@@ -1,0 +1,135 @@
+/*!
+ * Bootstrap Responsive v2.3.1
+ *
+ * Copyright 2012 Twitter, Inc
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Designed and built with all the love in the world @twitter by @mdo and @fat.
+ */
+.clearfix {
+	*zoom: 1;
+	}
+.clearfix:before,
+.clearfix:after {
+	display: table;
+	content: "";
+	line-height: 0;
+	}
+.clearfix:after {
+	clear: both;
+	}
+
+@media (min-width: 1200px) {
+	
+}
+
+@media (min-width: 992px) {
+
+	
+	
+}
+
+@media (min-width: 768px) {
+
+	
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+	
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+	.navbar { margin-top: 0; }
+
+	/* timeline */
+	.timeline .tl-left .tl-inner { padding: 10px 20px; padding-top: 56px; }
+	.timeline .tl-right .tl-inner { padding: 10px 20px; padding-top: 56px; }
+	
+}
+
+@media (max-width: 767px) {
+
+	/* global styles */
+	body { font-size: 14px; }
+	h1, .h1 { font-size: 34px; margin-bottom: 20px; }
+	h2, .h2 { font-size: 30px; font-weight: 400 !important; margin-bottom: 40px; }
+	h3, .h3 { font-size: 26px; }
+	h4, .h4 { font-size: 20px; }
+	h5, .h5 { font-size: 18px; }
+	h6, .h6 { font-size: 16px; }
+
+	.section { padding: 40px 0; }
+	.top-slant::after,
+	.bottom-slant::after,
+	.dual-slant::before,
+	.dual-slant::after { height: 60px; }
+	.top-slant { padding-top: 100px; }
+	.bottom-slant { padding-bottom: 100px; }
+	.dual-slant { padding-bottom: 100px; padding-top: 100px; }
+
+	/* header */
+	.header { padding: 20px 0; }
+	.top-nav-collapse { padding: 10px 0; }
+	.riseofaryan img { width: 110px; }
+	.top-nav-collapse .riseofaryan img { width: 90px; }
+	.nav-toggle { background-color: transparent; border: 0; border-radius: 0; top: 10px; right: 0; height: 60px; width: 60px; transform: none; transition: all 0.5s ease; }
+	.top-nav-collapse .nav-toggle { top: 0; }
+	.nav-toggle span { left: 0; margin-left: 15px; margin-top: 0; top: 50%; transform: none; }
+	.overlay-nav nav { width: 100%; }
+
+	/* intro */
+	.intro { padding-top: 120px; }
+	.intro .name { font-size: 34px; margin-bottom: 20px; }
+	.intro .rotateme::before, .intro .rotateme::after { display: none; }
+	.intro .rotator { font-size: 48px; line-height: 1.1; margin-bottom: 30px; }
+	.insidepage .intro { padding-bottom: 80px; padding-top: 120px; }
+
+	/* about */
+	.about-content h2 { font-size: 18px; line-height: 30px; }
+	.about-content .btnwrap .btn { margin-bottom: 10px; width: 240px; }
+	/* expertise */
+	.expertise-itm { margin-bottom: 30px; }
+	.icon-effect-2 .hi-icon { margin-bottom: 0; }
+
+	/* works */
+	.mix-nav li { margin-bottom: 8px; }
+
+	/* milestones */
+	.milestones .countup { margin-bottom: 30px; }
+	.countup .counter { font-size: 40px; }
+
+	/* quote */
+	.quote .hireme .btn { margin-bottom: 10px; }
+
+	/* contact */
+	.contact-info .info-block { margin-bottom: 20px; }
+	.contact-info .info-block .hi-icon { margin-bottom: 5px; }
+
+	/* about page */
+	.profile-text .signature { float: none; }
+
+	/* timeline */
+	.timeline .tl-left .tl-inner { padding: 10px 20px; padding-top: 56px; }
+	.timeline .tl-right .tl-inner { padding: 10px 20px; padding-top: 56px; }
+	.timeline .tl-item .job-title { font-size: 18px; }
+
+}
+
+@media (max-width: 480px) {
+
+	/* timeline */
+	.timeline::after { left: 0; margin-left: 0; }
+	.timeline .tl-right { margin-left: 0; }
+	.timeline .tl-left { margin-right: 0; }
+	.timeline .tl-item { margin-bottom: 30px; margin-left: 26px; }
+	.timeline .tl-left .tl-inner { padding-left: 20px; text-align: left; }
+	.timeline .tl-left .timespan { left: 0; right: inherit; }
+	.timeline .tl-left .timespan::before { border-left: 0; border-right: 10px solid #ef3f3d; left: -11px; right: inherit; }
+	.timeline .tl-left .tl-inner::after { left: -33px; right: inherit; }
+	
+}
